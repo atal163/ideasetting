@@ -1,0 +1,16 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2023-03-07T08:40:29</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2021.1.0.0</property>
+    <property name="modified">2023-03-07T16:19:19</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <colors>
+    <option name="DIAGRAM_DEFAULT_EDGE" value="a0a0a" />
+    <option name="DIAGRAM_INNER_EDGE" value="e0e0e" />
+    <option name="DIAGRAM_NODE_BACKGROUND" value="fcfeff" />
+    <option name="DIAGRAM_NODE_HEADER" value="f5f0f0" />
+    <option name="DIAGRAM_NOTE_BORDER" value="574d4d" />
+  </colors>
+</scheme>

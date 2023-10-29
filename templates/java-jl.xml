@@ -1,0 +1,7 @@
+<templateSet group="java-jl">
+  <template name="jl1" value="/**&#10; * 业务&#10; * 1.&#10; * @param xx&#10; * @return&#10; */&#10;@Override&#10;public Result&lt;Object&gt; testMethod(String xx) {&#10;&#9;Result&lt;Object&gt; result = Results.success();&#10;&#10;&#9;//获取数据&#10;&#10;&#10;&#9;//表单校验&#10;&#9;result = FormValidate.testMethod(xx);&#10;&#9;if(Results.isFailure(result)){&#10;&#9;&#9;log.debug(&quot;&gt;&gt;&gt;校验未通过:{}&quot;,result.getMsg());&#10;&#9;&#9;return result;&#10;&#9;}&#10;&#9;log.debug(&quot;&gt;&gt;&gt;校验已通过&quot;);&#10;&#10;&#9;//校验结束&#10;&#10;&#9;Map&lt;String, Object&gt; map = new HashMap&lt;&gt;();&#10;&#10;&#9;//1&#10;&#10;&#10;&#9;//返回统一数据包&#10;&#9;result.setData(map);&#10;&#9;return result;&#10;}" description="serviceImpl模板" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
